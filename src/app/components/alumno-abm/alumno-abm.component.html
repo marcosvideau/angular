@@ -1,0 +1,18 @@
+<form [formGroup]="alumnoForm" (ngSubmit)="agregarAlumno()">
+  <label for="nombre">Nombre:</label>
+  <input id="nombre" formControlName="nombre" required />
+
+  <label for="apellido">Apellido:</label>
+  <input id="apellido" formControlName="apellido" required />
+
+  <label for="edad">Edad:</label>
+  <input id="edad" formControlName="edad" required />
+
+  <button type="submit">Agregar Alumno</button>
+</form>
+
+
+
+
+
+  

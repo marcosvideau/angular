@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 100px auto; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+  
